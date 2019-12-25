@@ -144,15 +144,10 @@ Column unite(String unite, double _amount, int _id, int temperature) {
 
 Widget rowAmount(double amount) {
   return Container(
-    //margin: EdgeInsets.all(4),
     decoration: BoxDecoration(
       border: Border(
-        //right: BorderSide(width: 3, color: clrText),
-        //top: BorderSide(width: 3, color: clrText),
         bottom: BorderSide(width: 3, color: clrText),
-        //left: BorderSide(width: 3, color: clrText),
       ),
-      //borderRadius: BorderRadius.all(Radius.circular(40)),
     ),
     child: Row(
       children: <Widget>[
@@ -197,16 +192,11 @@ Widget rowAmount(double amount) {
 
 Widget rowId(String image, int text, Color color) {
   return Container(
-    //margin: EdgeInsets.only(right: 1, left: 1),
     padding: EdgeInsets.only(top: 3),
     decoration: BoxDecoration(
       border: Border(
         right: BorderSide(width: 3, color: clrText),
-        //top: BorderSide(width: 3, color: clrText),
-        //bottom: BorderSide(width: 3, color: clrText),
-        //left: BorderSide(width: 3, color: clrText),
       ),
-      //borderRadius: BorderRadius.all(Radius.circular(20)),
     ),
     child: Row(
       children: <Widget>[
@@ -233,17 +223,7 @@ Widget rowId(String image, int text, Color color) {
 
 Widget rowTemp(String image, int text, Color color) {
   return Container(
-    //margin: EdgeInsets.only(right: 1, left: 1),
     padding: EdgeInsets.only(top: 3),
-    decoration: BoxDecoration(
-      border: Border(
-          //right: BorderSide(width: 3, color: clrText),
-          //top: BorderSide(width: 3, color: clrText),
-          //bottom: BorderSide(width: 3, color: clrText),
-          //left: BorderSide(width: 3, color: clrText),
-          ),
-      //borderRadius: BorderRadius.all(Radius.circular(20)),
-    ),
     child: Row(
       children: <Widget>[
         Expanded(
