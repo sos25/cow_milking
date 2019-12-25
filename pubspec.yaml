@@ -1,0 +1,46 @@
+name: first_try
+description: Cevher - Yıldız Süt Ölçer.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  auto_size_text: ^2.1.0
+  flutter_launcher_icons: ^0.7.4
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  sqflite:
+  path:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Noticia Text
+      fonts:
+        - asset: assets/fonts/NoticiaText-Italic.ttf
+          style: italic
+    - family: MedulaOne
+      fonts:
+        - asset: assets/fonts/MedulaOne-Regular.ttf
+    - family: Dorsa
+      fonts:
+        - asset: assets/fonts/Dorsa-Regular.ttf
+    - family: LobsterTwo
+      fonts:
+        - asset: assets/fonts/LobsterTwo-Regular.ttf
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_cow.png"
+
+
+
